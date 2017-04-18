@@ -9,7 +9,7 @@ $name=$_REQUEST['name'];
     else{		
 	    $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your contact form";
-		mail("tenzingtsherpa@gmail.com", $subject, $message, $from);
+		mail("tenzingtsetensherpa@gmail.com", $subject, $message, $from);
 		echo "Email sent!";
 		
 	    }
