@@ -374,7 +374,7 @@ Main components
 }
 
 .fa-file-pdf-o:before{
-  color: black;
+  color: black !important;
 }
 
 .fa-file-pdf-o:hover{
@@ -383,7 +383,7 @@ Main components
 }
 
 .fa-linkedin-square:before{
-  color: black;
+  color: black !important;
 }
 
 .fa-linkedin-square:hover{
@@ -392,7 +392,7 @@ Main components
 }
 
 .fa-github:before{
-  color: black;
+  color: black !important;
 }
 
 .fa-github:hover{
@@ -401,7 +401,7 @@ Main components
 }
 
 .fa-pencil-square:before{
-  color:black;
+  color:black !important;
 }
 
 .fa-pencil-square:hover{
