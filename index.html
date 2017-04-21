@@ -5,8 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/scroll.js"></script>
@@ -32,17 +34,40 @@
 
 	<main class="cd-main-content">
 		<div class="cd-fixed-bg cd-bg-1" id="home">
-			<div class="container-fluid cd-bg-1 text-center">
-  				<h2 class="margin">Tenzing Sherpa</h2>
-  				<img src="img/profile.jpg" class="img-responsive img-circle margin" style="display:inline;" alt="Name" width="300" height="300">
+		<div class="homerow">
+			<div class="container-fluid text-center">
+				<h3>Tenzing Sherpa</h3>
+  				<img src="img/profile.jpg" class="img-responsive img-circle" style="display:inline; margin-top: 10px;" alt="Name" width="300" height="300">
+  				<h4>Portfolio/Resume</h4>
 			</div>
+		</div>
 		</div> <!-- cd-fixed-bg -->
 
 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
-				<p>
-					
-				</p>
+				<h1>Hello my name is Tenzing Sherpa <br> Welcome to my Portfolio/Resume website!</h1>
+				<div class="row">
+					<div class="col-lg-8 col-sm-8">
+				<img src="img/ucsb.png" width="348" height="162" style="margin-left: -50px;">
+				<p style="font-size: 30px;">Education</p>
+				<p><span">University: </span><span>University of California Santa Barbara</span></p>
+				<p><span">Major: </span><span>Computer Science</span></p>
+				<p><span>Year: </span><span>Junior</span></p>
+				<p><span>Interests: </span>Topics that interest me are mobile and web application development.</p>
+				<p style="margin-bottom: 30px;">Interested in Software internships.</p>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+				<img src="img/programming.png" width="162" height="162">
+				<p><span style="font-size: 30px;">Programming Skills</span></p>
+				<li>C++</li>
+				<li>Java</li>
+				<li>Android</li>
+				<li>Jsoup</li>
+				<li>HTML, CSS, & Javascript</li>
+				<li>Play Framework</li>
+				<li>Bootstrap Framework</li>
+				</div>
+			</div>
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
 
@@ -96,40 +121,37 @@
 			<div id="contact" class="center_div">
   <div class="row">
     <div class="col-lg-12">
-      <p style="text-align: center;">Contact me if you need any information</p>
-      <p style="text-align: center;"><span class="glyphicon glyphicon-envelope"></span> tenzingtsetensherpa@gmail.com</p>
+      <p style="text-align: center; color: black; font-family: 'Raleway', sans-serif; font-size: 30px;">Contact me if you need any information</p>
+      <p style="text-align: center; color: black; font-family: 'Raleway', sans-serif;"><span class="glyphicon glyphicon-envelope"></span> tenzingtsetensherpa@gmail.com</p>
       <br>
     </div>
     </div>
     <div class="center">
-    <form method="POST" action="http://formspree.io/tenzingtsetensherpa@gmail.com">
+    <form action="https://formspree.io/tenzingtsetensherpa@gmail.com" method="POST">
     <div class="col-lg-12">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required>
         </div>
       </div>
       <textarea class="form-control" id="message" name="message" placeholder="Comment" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit" value="Send">Send</button>
         </div>
       </div>
       </div>
       </form>
-   		<div class="row" style="margin-left: 10px; margin-top: 20px;">    
-      <div class="col-xs-4 form-group icons">
-      	<figure><img src="img/facebook.png" width="80" height="80"></figure>
-      </div>
-      <div class="col-xs-4 form-group icons">
-      	<figure><img src="img/linkedin.png" width="80" height="80"></figure>
-      </div>
-      <div class="col-xs-4 form-group icons">
-      	<figure><img src="img/github.png" width="80" height="80"></figure>
-      </div>
+   		<div class="row">    
+      <ul class="list-inline links">
+            <li><a href="mailto:alexandertyuen@gmail.com"><i class="fa fa-pencil-square fa-3x fa-color"></i></a></li>
+            <li><a href="https://github.com/atyuen" target="_blank"><i class="fa fa-github fa-3x fa-color"></i></a></li>
+            <li><a href="https://linkedin.com/in/atyuen" target="_blank"><i class="fa fa-linkedin-square fa-3x fa-color"></i></a></li>
+            <li><a href="resources/docs/yuen_resume.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-3x fa-color"></i></a></li>
+      </ul>
       </div>
 	</div>
 		</div>
@@ -139,4 +161,5 @@
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
+
 
