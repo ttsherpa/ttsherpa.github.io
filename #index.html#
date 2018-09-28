@@ -12,16 +12,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/scroll.js"></script>
-
-
-	<title>Tenzing Sherpa's Portfolio</title>
+ 	<title>Tenzing Sherpa's Portfolio</title>
 </head>
-
-
-<body data-spy="scroll" data-target=".cd-main-nav" data-offset="50">
+ <body data-spy="scroll" data-target=".cd-main-nav" data-offset="50">
 	<header class="cd-header">
-
-		<nav class="cd-main-nav">
+ 		<nav class="cd-main-nav">
 			<ul>
 				<!-- inser more links here -->
 				<li><a href="#home">Home</a></li>
@@ -31,8 +26,7 @@
 			</ul>
 		</nav> <!-- cd-main-nav -->
 	</header>
-
-	<main class="cd-main-content">
+ 	<main class="cd-main-content">
 		<div class="cd-fixed-bg cd-bg-1" id="home">
 		<div class="homerow">
 			<div class="container-fluid text-center">
@@ -42,8 +36,7 @@
 			</div>
 		</div>
 		</div> <!-- cd-fixed-bg -->
-
-		<div class="cd-scrolling-bg cd-color-2">
+ 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
 				<h1>Hello my name is Tenzing Sherpa <br> Welcome to my Portfolio/Resume website!</h1>
 				<div class="row">
@@ -71,12 +64,10 @@
 			</div>
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
-
-		<div class="cd-fixed-bg cd-bg-2" id="experience">
+ 		<div class="cd-fixed-bg cd-bg-2" id="experience">
 			<h2>Experience</h2>
 		</div> <!-- cd-fixed-bg -->
-
-		<div class="cd-scrolling-bg cd-color-3">
+ 		<div class="cd-scrolling-bg cd-color-3">
 				<div class="text-center">
   				<div class="row">
     			<div class="col-lg-6">
@@ -95,40 +86,16 @@
 				</div>
 			<!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
-
-		<div class="cd-fixed-bg cd-bg-3" id="desire">
+ 		<div class="cd-fixed-bg cd-bg-3" id="desire">
 			<h2>Projects</h2>
 		</div> <!-- cd-fixed-bg -->
-
-		<div class="cd-scrolling-bg cd-color-1">
-			<center><h1 style="font-size: 30px; color: black; margin-bottom: 10%;">These are the following projects I have worked on ...</h1></center>
-			<div class=" container-fluid">
-			<div class="center_div">
-			<div class="col-lg-12">
-			<div class="row">
-			<div class="col-sm-4">
-			<a href="https://github.com/ttsherpa1996/cs56-games-towers-of-hanoi"><div class="image1">
-    <img src="img/twh.png" height="300" width="300" style="margin-bottom: 40px;" >
-    </div></a>
-    		</div>
-    		<div class="col-sm-4">
-    		<a href="https://github.com/ttsherpa/CrashCourse"><div class="image2">
-    <img src="img/calendar.png" height="300" width="300" style="margin-bottom: 40px;">
-    </div></a>
-    </div>
-    <div class=" col-sm-4">
-    <a href="https://github.com/dvanmali/cs56-games-poker"><div class="image3 ">
-    <img src="img/poker.jpg" height="300" width="300">
-    </div></a>
-  			</div>
-  			</div>
-  			</div>
-  			</div>
-  			</div>
-  			<center><p style="margin-top: 30px; color: black;">For more detail click on the project you would like to browse</p></center>
+ 		<div class="cd-scrolling-bg cd-color-1">
+			<div class="cd-container">
+				<p>
+ 				</p>
+			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
-
-		<div class="cd-fixed-bg cd-bg-4" id="contact">
+ 		<div class="cd-fixed-bg cd-bg-4" id="contact">
 			<h2>Contact</h2>
 		</div> <!-- cd-fixed-bg -->
 		<div class="cd-scrolling-bg cd-color-1 ">
