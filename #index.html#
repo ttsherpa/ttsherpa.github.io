@@ -89,12 +89,35 @@
  		<div class="cd-fixed-bg cd-bg-3" id="desire">
 			<h2>Projects</h2>
 		</div> <!-- cd-fixed-bg -->
- 		<div class="cd-scrolling-bg cd-color-1">
-			<div class="cd-container">
-				<p>
- 				</p>
-			</div> <!-- cd-container -->
-		</div> <!-- cd-scrolling-bg -->
+		<div class="cd-scrolling-bg cd-color-1">
+	<center><h1 style="font-size: 30px; color: black; margin-bottom: 10%;">These are the following projects I have worked on ...</h1></center>
+	<div class=" container-fluid">
+	<div class="center_div">
+	<div class="col-lg-12">
+	<div class="row">
+	<div class="col-sm-4">
+	<a href="https://github.com/ttsherpa1996/cs56-games-towers-of-hanoi"><div class="image1">
+<img src="img/twh.png" height="300" width="300" style="margin-bottom: 40px;" >
+</div></a>
+		</div>
+		<div class="col-sm-4">
+		<a href="https://github.com/ttsherpa/CrashCourse"><div class="image2">
+<img src="img/calendar.png" height="300" width="300" style="margin-bottom: 40px;">
+</div></a>
+</div>
+<div class=" col-sm-4">
+<a href="https://github.com/dvanmali/cs56-games-poker"><div class="image3 ">
+<img src="img/poker.jpg" height="300" width="300">
+</div></a>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<center><p style="margin-top: 30px; color: black;">For more detail click on the project you would like to browse</p></center>
+</div> <!-- cd-scrolling-bg -->
+
+
  		<div class="cd-fixed-bg cd-bg-4" id="contact">
 			<h2>Contact</h2>
 		</div> <!-- cd-fixed-bg -->
